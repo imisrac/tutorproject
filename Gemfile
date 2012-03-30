@@ -5,13 +5,19 @@ gem 'rails', '3.2.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
+group :development do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 group :test do
+  gem 'rspec-rails'
   gem 'capybara', '1.1.2'
+  gem 'rb-inotify'
+  gem 'libnotify'
+  gem 'guard-spork'
+  gem 'spork'
 end
 
 group :production do
