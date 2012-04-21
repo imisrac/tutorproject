@@ -1,5 +1,4 @@
 Tutorproject::Application.routes.draw do
-  get "users/new"
 
   root to: 'static_pages#home'
 
@@ -11,9 +10,9 @@ Tutorproject::Application.routes.draw do
   
   match '/contact', to: 'static_pages#contact'
 
-  get "pages/home"
+  #get "pages/home"
 
-  get "pages/contact"
+  #get "pages/contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
