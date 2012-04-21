@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
 gem 'bootstrap-sass'
-gem 'execjs'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -23,8 +22,7 @@ group :test do
 end
 
 group :production do
-  gem 'execjs'
-  gem 'therubyracer'
+  gem 'therubyracer-heroku'
   gem 'pg'
 end
 
