@@ -23,6 +23,8 @@ group :test do
 end
 
 group :production do
+  gem 'execjs'
+  gem 'therubyracer'
   gem 'pg'
 end
 
