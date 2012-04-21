@@ -153,6 +153,7 @@ DEPENDENCIES
   bootstrap-sass
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.1)
+  execjs
   guard-rspec
   guard-spork
   jquery-rails
