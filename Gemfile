@@ -17,14 +17,16 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'capybara', '1.1.2'
-  gem 'rb-inotify' #linux
-  gem 'libnotify'  #linux
-#  gem 'rb-fchange', '0.0.5'    #windows
-#  gem 'rb-notifu', '0.0.4'     #windows
-#  gem 'win32console', '1.3.0'  #windows
+#  gem 'rb-inotify' #linux
+#  gem 'libnotify'  #linux
+  gem 'rb-fchange', '0.0.5'    #windows
+  gem 'rb-notifu', '0.0.4'     #windows
+  gem 'win32console', '1.3.0'  #windows
   gem 'guard-spork'
   gem 'spork'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
 
 group :production do
